@@ -9,10 +9,15 @@ public class explode : MonoBehaviour
     public float explosionRadius;
     private float time;
     private Vector2 position2D;
+    private Collider2D[] results;
+    private ContactFilter2D filter = new ContactFilter2D();
     // Start is called before the first frame update
     void Start()
     {
+
         time = 0;
+        results = new Collider2D[100];
+        filter.NoFilter();
 
     }
 
@@ -30,11 +35,10 @@ public class explode : MonoBehaviour
     void Explode(){
         Instantiate(explosionEffect, transform.position, transform.rotation);
 
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(position2D, explosionRadius, 0);
+        int collided = Physics2D.OverlapCircle(position2D, explosionRadius, filter, results);
 
-        Debug.Log(position2D);
-
-        foreach (Collider2D collider in colliders){
+        if(collided > 1) foreach (Collider2D collider in results)
+        {
             Rigidbody2D rigidbody = collider.GetComponent<Rigidbody2D>();
             if (rigidbody != null) {
                 rigidbody.AddForce(new Vector2(1, 1));

@@ -91,7 +91,5 @@ public class playerCharacter : MonoBehaviour
         v1.Set(Mathf.Log(2, rigidbody.velocity.x) * 2 + 1, Mathf.Log(2, rigidbody.velocity.y) * 2 + 1);
         v2.Set(v1.x - v1.y / 2, v1.y - v1.x / 2);
         transform.localScale.Scale(v1);
-
-        Debug.Log(transform.localScale);
     }
 }

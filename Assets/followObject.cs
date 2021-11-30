@@ -33,9 +33,6 @@ public class followObject : MonoBehaviour
         moveVector.z -= transform.position.z;
 
         transform.position += moveVector;
-        Debug.Log(moveVector);
-        Debug.Log(targetVector);
-        Debug.Log(transform.position);
     }
 }
 
