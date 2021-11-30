@@ -12,15 +12,17 @@ The test of the game game is planned to include
 -A new toolkit of different powerups and grenades after each boss (there's literaly only two bosses)
 
 most of the core game mechanics should be there, and the loop of the game is usualy as follows
--play for a bit
--die to self damage ot enemy
--learn how zone plays and how enemies attack to deal with them
--git good and go to the boss
--defeat boss and realize you have an option for another, switched up attack
--die using new grenade/item
--repeat steps untill you reach next boss
--repeat cycle
-thigns like shops with currency gained during the run, different kits to start out with and tower defense sections are planned, but not going to be implemented in the test. (Especialy with the AI saying a big "NOPE" earlier on)
+
+-play for a bit\n
+-die to self damage ot enemy\n
+-learn how zone plays and how enemies attack to deal with them\n
+-git good and go to the boss\n
+-defeat boss and realize you have an option for another, switched up attack\n
+-die using new grenade/item\n
+-repeat steps untill you reach next boss\n
+-repeat cycle\n
+
+things like shops with currency gained during the run, different kits to start out with and tower defense sections are planned, but not going to be implemented in the test. (Especialy with the AI saying a big "NOPE" earlier on)
 
 Yes, this is a bit less structured game coming from a one inexperianced gamedev. I hope whatever comes out isn't that bad
 In all sereousness, thank you if you chose to suport this project in any means. It'll probibly be free to play in it's final version, and maybe I'll try to add multiplayer suport on steam if it releases there but I think Im geting ahead of myself.
