@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class playerCharacter : MonoBehaviour
+public class playerCharacter : MonoBehaviour, Healthc
 {
     private Vector2 movementMultiplier = new Vector2(0, 0);
     Vector2 vel = new Vector2();
@@ -14,12 +14,24 @@ public class playerCharacter : MonoBehaviour
     public Vector2 grenadeMovementMultiplier;
     public float grenadeBaseThrowSpeed;
     private Vector2 v1 = new Vector2(), v2 = new Vector2(), v3 = new Vector2();
+    public float health = 15;
+    public float maxHealth = 15;
     // Start is called before the first frame update
+
     void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
 
         rigidbody.drag = drag;
+    }
+
+    public float damage(float damage){
+        health -= damage;
+        return health;
+    }
+
+    public float healthf(){
+        return health/maxHealth;
     }
 
     // Update is called once per frame
