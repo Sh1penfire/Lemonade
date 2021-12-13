@@ -20,6 +20,7 @@ MonoBehaviour:
     height: 1395
   m_ShowMode: 4
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Title: Project
   m_RootView: {fileID: 9}
   m_MinSize: {x: 875, y: 300}
@@ -84,6 +85,14 @@ MonoBehaviour:
   m_Maximized: 1
 --- !u!114 &2
 >>>>>>> parent of 4fdd326 (sans)
+=======
+  m_Title: Hierarchy
+  m_RootView: {fileID: 6}
+  m_MinSize: {x: 875, y: 392}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_Maximized: 1
+--- !u!114 &2
+>>>>>>> parent of 4fdd326 (sans)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,8 +117,13 @@ MonoBehaviour:
   m_MaxSize: {x: 12002, y: 8042}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 139
 --- !u!114 &6
+=======
+  controlID: 18
+--- !u!114 &3
+>>>>>>> parent of 4fdd326 (sans)
 =======
   controlID: 18
 --- !u!114 &3
@@ -215,7 +229,11 @@ MonoBehaviour:
     width: 2560
     height: 1395
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MinSize: {x: 875, y: 300}
+=======
+  m_MinSize: {x: 875, y: 392}
+>>>>>>> parent of 4fdd326 (sans)
 =======
   m_MinSize: {x: 875, y: 392}
 >>>>>>> parent of 4fdd326 (sans)
@@ -295,8 +313,13 @@ MonoBehaviour:
   m_MaxSize: {x: 8002, y: 8042}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 140
 --- !u!114 &13
+=======
+  controlID: 19
+--- !u!114 &10
+>>>>>>> parent of 4fdd326 (sans)
 =======
   controlID: 19
 --- !u!114 &10
@@ -325,8 +348,13 @@ MonoBehaviour:
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 115
 --- !u!114 &14
+=======
+  controlID: 20
+--- !u!114 &11
+>>>>>>> parent of 4fdd326 (sans)
 =======
   controlID: 20
 --- !u!114 &11
@@ -397,7 +425,11 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/scripts/ai
+=======
+    - Assets/scripts/game/characters
+>>>>>>> parent of 4fdd326 (sans)
 =======
     - Assets/scripts/game/characters
 >>>>>>> parent of 4fdd326 (sans)
@@ -407,7 +439,11 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Assets/scripts/ai
+=======
+  - Assets/scripts/game/characters
+>>>>>>> parent of 4fdd326 (sans)
 =======
   - Assets/scripts/game/characters
 >>>>>>> parent of 4fdd326 (sans)
@@ -418,9 +454,15 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: 26420000
     m_LastClickedID: 16934
     m_ExpandedIDs: 0000000006420000104200001642000000ca9a3b
+=======
+    m_SelectedIDs: ee800000
+    m_LastClickedID: 33006
+    m_ExpandedIDs: 000000001c6900001e6900002069000024690000dc800000ea80000000ca9a3b
+>>>>>>> parent of 4fdd326 (sans)
 =======
     m_SelectedIDs: ee800000
     m_LastClickedID: 33006
@@ -454,7 +496,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000006420000
+=======
+    m_ExpandedIDs: 000000001c6900001e690000206900002269000024690000
+>>>>>>> parent of 4fdd326 (sans)
 =======
     m_ExpandedIDs: 000000001c6900001e690000206900002269000024690000
 >>>>>>> parent of 4fdd326 (sans)
@@ -581,9 +627,15 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: 4c150000
       m_LastClickedID: 0
       m_ExpandedIDs: 60fbffff
+=======
+      m_SelectedIDs: d6680000
+      m_LastClickedID: 26838
+      m_ExpandedIDs: 4ed8ffffd6680000
+>>>>>>> parent of 4fdd326 (sans)
 =======
       m_SelectedIDs: d6680000
       m_LastClickedID: 26838
