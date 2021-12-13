@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1483556873742921261}
   - component: {fileID: 7256673371465842882}
   - component: {fileID: 8957090356532562906}
+  - component: {fileID: 4164657981599946165}
   - component: {fileID: 7479701897054570375}
   m_Layer: 0
   m_Name: lime
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6ab8e1416e9c74251a9645b51410e6f9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc498724fdc486744a2e7ec7927f4137, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -105,6 +106,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4164657981599946165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2653175330396428957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b97b654a017e97f4d8e96aca232d5141, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 3
+  acceleration: 3
+  drag: 5
+  currentGrenade: {fileID: 6705886376935403081, guid: 7894a8bba8b98d94b8383c170abe5948,
+    type: 3}
+  grenadeMovementMultiplier: {x: 125, y: 125}
+  grenadeBaseThrowSpeed: 0
 --- !u!96 &7479701897054570375
 TrailRenderer:
   serializedVersion: 2

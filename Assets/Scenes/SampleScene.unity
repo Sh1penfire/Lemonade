@@ -224,8 +224,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody: {fileID: 1640885971}
-  smoothMin: 0.075
-  smoothAmount: 0.45
+  smoothMin: 0.05
+  smoothAmount: 0.35
   cameraZ: -10
 --- !u!20 &519420031
 Camera:
@@ -282,77 +282,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1354642982
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1483556873742921261, guid: cf975316c0d9841c7b5d9943df4cb55d,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1483556873742921261, guid: cf975316c0d9841c7b5d9943df4cb55d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1483556873742921261, guid: cf975316c0d9841c7b5d9943df4cb55d,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1483556873742921261, guid: cf975316c0d9841c7b5d9943df4cb55d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1483556873742921261, guid: cf975316c0d9841c7b5d9943df4cb55d,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1483556873742921261, guid: cf975316c0d9841c7b5d9943df4cb55d,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1483556873742921261, guid: cf975316c0d9841c7b5d9943df4cb55d,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1483556873742921261, guid: cf975316c0d9841c7b5d9943df4cb55d,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1483556873742921261, guid: cf975316c0d9841c7b5d9943df4cb55d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1483556873742921261, guid: cf975316c0d9841c7b5d9943df4cb55d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1483556873742921261, guid: cf975316c0d9841c7b5d9943df4cb55d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2653175330396428957, guid: cf975316c0d9841c7b5d9943df4cb55d,
-        type: 3}
-      propertyPath: m_Name
-      value: lime
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: cf975316c0d9841c7b5d9943df4cb55d, type: 3}
 --- !u!1 &1640885970
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,7 +388,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1640885974
 MonoBehaviour:
@@ -471,15 +402,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b97b654a017e97f4d8e96aca232d5141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 3
   acceleration: 3
   drag: 5
   currentGrenade: {fileID: 6705886376935403081, guid: 7894a8bba8b98d94b8383c170abe5948,
     type: 3}
   grenadeMovementMultiplier: {x: 125, y: 125}
   grenadeBaseThrowSpeed: 0
-  health: 15
-  maxHealth: 15
 --- !u!96 &1640885975
 TrailRenderer:
   serializedVersion: 2
@@ -576,6 +505,6 @@ TrailRenderer:
     textureMode: 0
     shadowBias: 0.5
     generateLightingData: 0
-  m_MinVertexDistance: 0.03
+  m_MinVertexDistance: 0.3
   m_Autodestruct: 0
   m_Emitting: 1
