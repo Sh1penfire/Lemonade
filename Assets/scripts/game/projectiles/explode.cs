@@ -24,8 +24,6 @@ public class explode : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        position2D.x = transform.position.x;
-        position2D.y = transform.position.y;
         time += Time.deltaTime;
         if (time >= explosionTime) {
             Explode();
@@ -33,8 +31,11 @@ public class explode : MonoBehaviour
     }
 
     void Explode(){
+        //ignore this for now
         Instantiate(explosionEffect, transform.position, transform.rotation);
 
+        position2D.x = transform.position.x;
+        position2D.y = transform.position.y;
         int collided = Physics2D.OverlapCircle(position2D, explosionRadius, filter, results);
 
         if(collided > 1) foreach (Collider2D collider in results)
@@ -43,7 +44,6 @@ public class explode : MonoBehaviour
             if (rigidbody != null) {
                 rigidbody.AddForce(new Vector2(1, 1));
             }
-            Debug.Log(rigidbody);
         }
         Destroy(gameObject);
     }
