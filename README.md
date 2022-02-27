@@ -1,4 +1,7 @@
 # Lemonade
+(Put on hold because of (somewhat dumb) projects I already have on)
+
+
 A unity game for no reason at all, soon moving to Open GL if the game is fun enough
 
 The test of the game game is planned to include
