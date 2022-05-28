@@ -42,7 +42,3 @@ most of the core game mechanics should be there, and the loop of the game is usu
 -repeat cycle
 
 things like shops with currency gained during the run, different kits to start out with and tower defense sections are planned, but not going to be implemented in the test. (Especialy with the AI saying a big "NOPE" earlier on)
-
-Yes, this is a bit less structured game coming from a one inexperianced gamedev. I hope whatever comes out isn't that bad
-In all sereousness, thank you if you chose to suport this project in any means. It'll probibly be free to play in it's final version, and maybe I'll try to add multiplayer suport on steam if it releases there but I think Im geting ahead of myself. Expect the initial sprites to be under par compared to my other projects like Endless Rusting and Crystalline Christmas
-anyways have fun reading the code lol
